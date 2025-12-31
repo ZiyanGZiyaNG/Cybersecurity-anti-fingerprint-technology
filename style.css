@@ -7,3 +7,9 @@ button
 {
     color: black;
 }
+
+.chat
+{
+  display: flex;
+  flex-direction: column;
+}
