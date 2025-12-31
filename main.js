@@ -5,7 +5,7 @@ app.innerHTML = `
 <div class="chat">
     <h1>聊天室</h1>
     <div>
-      <!-- 這裡之後放訊息 -->
+
     </div>
     <input type="text">
     <button class="button">送出</button>
@@ -13,9 +13,10 @@ app.innerHTML = `
 `
 
 const button = app.querySelector("button");
+const input = app.querySelector("input")
 body.appendChild(app);
 
 button.addEventListener("click", () =>
 {
-  console.log("clicked");
+  console.log(input.value)
 });
