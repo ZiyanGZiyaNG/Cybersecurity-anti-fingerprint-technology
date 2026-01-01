@@ -1,15 +1,17 @@
-h2
-{
+h2 {
     color: red;
 }
 
-button
-{
+button {
     color: black;
 }
 
-.chat
-{
+.chat {
   display: flex;
   flex-direction: column;
+}
+
+p { 
+  color: blue;
+  text-align: right;
 }
